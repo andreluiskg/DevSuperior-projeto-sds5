@@ -3,6 +3,7 @@ const Footer = () => {
         <footer className="footer mt-auto py-3 bg-dark">
             <div className="container">
                 <p className="text-light">App desenvolvido por <a href="https://github.com/andreluiskg/" target="_blank" rel="noreferrer">André Klem</a></p>
+                <p className="text-light">Publicado em <a href="https://andreluiskg-projeto-sds3.netlify.app/" target="_blank" rel="noreferrer">Netlify</a></p>
                 <p className="text-light"><small><strong>Semana Spring React</strong><br />
                     Evento promovido pela escola DevSuperior: <a href="https://instagram.com/devsuperior.ig" target="_blank" rel="noreferrer">@devsuperior.ig</a></small></p>
             </div>
