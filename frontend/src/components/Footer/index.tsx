@@ -2,10 +2,11 @@ const Footer = () => {
     return (
         <footer className="footer mt-auto py-3 bg-dark">
             <div className="container">
-                <p className="text-light">App desenvolvido por <a href="https://github.com/andreluiskg/" target="_blank" rel="noreferrer">André Klem</a></p>
-                <p className="text-light">Publicado em <a href="https://andreluiskg-projeto-sds3.netlify.app/" target="_blank" rel="noreferrer">Netlify</a></p>
                 <p className="text-light"><small><strong>Semana Spring React</strong><br />
-                    Evento promovido pela escola DevSuperior: <a href="https://instagram.com/devsuperior.ig" target="_blank" rel="noreferrer">@devsuperior.ig</a></small></p>
+                    Evento promovido pela escola DevSuperior: <a href="https://instagram.com/devsuperior.ig" target="_blank" rel="noreferrer">@devsuperior.ig</a><br />
+                    App desenvolvido por André Luís Klem Gomes<br />
+                    Clouds <a href="https://www.netlify.com/">Netlify (front-end React)</a> e <a href="https://www.heroku.com/">Heroku (back-end Java Spring Boot)</a><br />
+                    GitHub <a href="https://github.com/andreluiskg/projeto-sds5">github.com/andreluiskg/projeto-sds5</a></small></p>
             </div>
         </footer>
     );
